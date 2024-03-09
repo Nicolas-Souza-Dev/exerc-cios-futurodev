@@ -57,9 +57,14 @@ function adicionarCarrinho() {
     });
     carrinhoHTML += "</ol>";
 
-   document.getElementById('lista-carrinho').innerHTML = carrinhoHTML;
+    document.getElementById('lista-carrinho').innerHTML = carrinhoHTML;
 
-   
+   localStorage.setItem('carrinho', JSON.stringify(carrinho)); 
+}
+
+function ultimoProdutoConsultado() {
+    const produto = localStorage.getItem('produto-consultado');
+    console.log(produto)
 }
 
 function calcularTotal() {
