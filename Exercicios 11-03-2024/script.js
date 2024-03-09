@@ -51,11 +51,11 @@ function adicionarCarrinho() {
    let item = consultaValor();
    carrinho.push(item);
 
-   let carrinhoHTML = "<ul>";
+   let carrinhoHTML = "<ol>";
     carrinho.forEach(function(item) {
         carrinhoHTML += "<li>" + item.nome + ": " + item.preco + "</li>";
     });
-    carrinhoHTML += "</ul>";
+    carrinhoHTML += "</ol>";
 
    document.getElementById('lista-carrinho').innerHTML = carrinhoHTML;
 
