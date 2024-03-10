@@ -20,3 +20,11 @@ elemento.appendChild(document.createTextNode('Criei meu span utilizando manipula
 
 content.appendChild(elemento);
 
+
+//-------------Exercicío 4----------------------- 
+
+let remove = document.querySelector('#content span');
+remove.remove();
+
+
+
