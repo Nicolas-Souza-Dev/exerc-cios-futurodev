@@ -46,10 +46,18 @@ for (let i = 0; i < classes.length; i++) {
 
   //-------------Exercicío 7----------------------- 
 
-  let remover = document.querySelector('.classRemove');
+//   let remover = document.querySelector('.classRemove');
 
-  remover.classList.remove('classRemove');
+//   remover.classList.remove('classRemove');
 
-  console.log(remover)
+//   console.log(remover)
+
+   //-------------Exercicío 8----------------------- 
+
+let myelemento = document.getElementById('meuElemento');
+
+myelemento.setAttribute("data-atual", "13/03/2024")
+
+console.log(myelemento)
 
 
