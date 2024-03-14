@@ -60,4 +60,12 @@ myelemento.setAttribute("data-atual", "13/03/2024")
 
 console.log(myelemento)
 
+   //-------------Exercicío 9----------------------- 
+
+   myelemento.removeAttribute("data-atual");
+
+   console.log(myelemento)
+
+
+
 
