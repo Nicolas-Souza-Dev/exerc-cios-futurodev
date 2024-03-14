@@ -26,5 +26,13 @@ content.appendChild(elemento);
 let remove = document.querySelector('#content span');
 remove.remove();
 
+//-------------Exercicío 5----------------------- 
+
+let classes = document.getElementsByClassName('span');
+
+for (let i = 0; i < classes.length; i++) {
+    classes[i].style.backgroundColor = 'blue';
+}
+ 
 
 
