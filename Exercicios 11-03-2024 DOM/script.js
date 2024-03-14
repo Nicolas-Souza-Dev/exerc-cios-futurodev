@@ -38,10 +38,18 @@ for (let i = 0; i < classes.length; i++) {
 
  //-------------Exercicío 6----------------------- 
 
- let title = document.getElementById('titulo');
+//  let title = document.getElementById('titulo');
 
- title.classList.add('ClassTitulo');
+//  title.classList.add('ClassTitulo');
 
- console.log(title)
+//  console.log(title)
+
+  //-------------Exercicío 7----------------------- 
+
+  let remover = document.querySelector('.classRemove');
+
+  remover.classList.remove('classRemove');
+
+  console.log(remover)
 
 
