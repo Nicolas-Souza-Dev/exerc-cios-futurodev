@@ -30,9 +30,18 @@ remove.remove();
 
 let classes = document.getElementsByClassName('span');
 
+
 for (let i = 0; i < classes.length; i++) {
     classes[i].style.backgroundColor = 'blue';
 }
- 
+
+
+ //-------------Exercicío 6----------------------- 
+
+ let title = document.getElementById('titulo');
+
+ title.classList.add('ClassTitulo');
+
+ console.log(title)
 
 
