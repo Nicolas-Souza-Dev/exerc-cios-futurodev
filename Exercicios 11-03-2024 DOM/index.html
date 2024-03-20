@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Exercicios DOM</title>
 </head>
+
 <body>
-    <h1 id="titulo">Título</h1>
+    <!-- <h1 id="titulo">Título</h1>
     <span class="span">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio excepturi beatae cum molestiae quibusdam nam corporis assumenda necessitatibus, iusto maxime et quia explicabo ducimus quas, culpa perspiciatis! Ipsum, repellendus quia!</span> <br>
     <br>
     <span class="span">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio excepturi beatae cum molestiae quibusdam nam corporis assumenda necessitatibus, iusto maxime et quia explicabo ducimus quas, culpa perspiciatis! Ipsum, repellendus quia!</span> <br>
@@ -20,11 +23,36 @@
 
     <div id="content">
         <span>Elemento para ser removido</span>    <br>
+    </div> -->
+    <div class="titulo">
+        <span>LISTA DE TAREFAS</span>
+    </div>
+    <div class="container">
+        <div class="content">
+
+            <div class="input">
+                <span>ADICIONAR TAREFA</span>
+                <input id="inputTarefa" type="text" placeholder="Digite uma tarefa">
+                <button onclick="adicionarTarefa()">Adicionar</button>
+            </div>
+
+            <div class="lista">
+                <span>LISTA DE TAREFAS</span>
+                <div>
+                    <ul class="listaTarefas">
+                         
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
     </div>
 
-    
-    
-    
+
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
